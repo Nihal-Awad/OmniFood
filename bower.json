@@ -1,0 +1,24 @@
+{
+  "name": "Omni Food",
+  "homepage": "https://github.com/Nihal-Awad/OmniFood",
+  "authors": [
+    "Nihal Awadh <nihalasghayuu@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "html5shiv": "^3.7.3"
+  },
+  "devDependencies": {
+    "html5shiv": "^3.7.3"
+  }
+}

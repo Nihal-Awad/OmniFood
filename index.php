@@ -351,11 +351,11 @@
             <form action="mailer.php" method="post" class="contact-form">
                 <div class="row">
                  <?php 
-                if($_GET['SUCCESS'] == 1){
+                if($_GET['success'] == 1){
                 echo "<div class=\"form-messages success\">Thank you! your message is sent.</div>";
                 } 
                 
-                if($_GET['SUCCESS'] == -1){
+                if($_GET['success'] == -1){
                     echo "<div class=\"form-messages error\">Oops! something went wrong.</div>";
                 }
                 

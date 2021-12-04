@@ -347,11 +347,20 @@
             <h2>We're happy to hear from you</h2>
         </div>
         <div class="row">
-            <?php 
-            <div class="form-messages success">Thank you! your message is sent.</div>
-            <!-- <div class="form-messages error">Oops! something went wrong.</div> -->
-            ?>
+           
             <form action="mailer.php" method="post" class="contact-form">
+                <div class="row">
+                 <?php 
+                if($_GET['SUCCESS'] == 1){
+                echo "<div class=\"form-messages success\">Thank you! your message is sent.</div>";
+                } 
+                
+                if($_GET['SUCCESS'] == -1){
+                    echo "<div class=\"form-messages error\">Oops! something went wrong.</div>";
+                }
+                
+                ?>
+                </div>
                 <div class="row">
                     <div class="col span-1-of-3">
                         <label for="name">Name</label>
